@@ -1,7 +1,7 @@
 {
-  "name": "stellar-sdk",
+  "name": "ion-sdk",
   "version": "0.9.1",
-  "description": "stellar-sdk is a library for working with the Stellar Horizon server.",
+  "description": "ion-sdk is a library for working with the ION Horizon server (fored from Stellar).",
   "main": "lib/index.js",
   "scripts": {
     "test": "babel-node ./node_modules/.bin/gulp test",
@@ -11,21 +11,20 @@
     "postversion": "git push && git push --tags"
   },
   "keywords": [
-    "stellar"
+    "ion"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/stellar/js-stellar-sdk.git"
+    "url": "https://github.com/caoxuwen/js-stellar-sdk.git"
   },
   "engines": {
     "node": ">=6"
   },
-  "author": "Stellar Development Foundation <hello@stellar.org>",
+  "author": "Xuwen Cao <caoxuwen@gmail.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/stellar/js-stellar-sdk/issues"
   },
-  "homepage": "https://github.com/stellar/js-stellar-sdk",
+  "homepage": "https://github.com/caoxuwen/js-stellar-sdk",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "~6.26.3",
@@ -84,7 +83,7 @@
     "event-source-polyfill": "0.0.12",
     "eventsource": "^1.0.5",
     "lodash": "^4.17.10",
-    "stellar-base": "^0.7.6",
+    "ion-base": "^0.7.6",
     "toml": "^2.3.0",
     "urijs": "1.19.1"
   }
