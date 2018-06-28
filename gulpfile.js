@@ -107,7 +107,7 @@ gulp.task('test:browser', ["build:browser"], function (done) {
   //var server = new Server({ configFile: __dirname + '/karma.conf.js' });
   //server.start(function() {
     done();
-  });
+  //});
 });
 
 gulp.task('test:sauce', ["build:browser"], function (done) {
