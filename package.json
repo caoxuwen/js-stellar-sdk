@@ -22,8 +22,7 @@
   },
   "author": "Xuwen Cao <caoxuwen@gmail.com>",
   "license": "Apache-2.0",
-  "bugs": {
-  },
+  "bugs": {},
   "homepage": "https://github.com/caoxuwen/js-stellar-sdk",
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -83,7 +82,7 @@
     "event-source-polyfill": "0.0.12",
     "eventsource": "^1.0.5",
     "lodash": "^4.17.10",
-    "ion-base": "^0.7.6",
+    "ion-base": "^0.7.9",
     "toml": "^2.3.0",
     "urijs": "1.19.1"
   }
