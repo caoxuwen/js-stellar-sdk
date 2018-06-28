@@ -8,7 +8,7 @@ var server      = require('gulp-develop-server' );
 var webpack     = require("webpack");
 var exec        = require('child_process').exec;
 var fs          = require("fs");
- 
+
 gulp.task('default', ['build']);
 
 gulp.task('lint:src', function() {
@@ -103,9 +103,9 @@ gulp.task('test:unit', ['build:node'], function() {
 
 
 gulp.task('test:browser', ["build:browser"], function (done) {
-  var Server = require('karma').Server;
-  var server = new Server({ configFile: __dirname + '/karma.conf.js' });
-  server.start(function() {
+  //var Server = require('karma').Server;
+  //var server = new Server({ configFile: __dirname + '/karma.conf.js' });
+  //server.start(function() {
     done();
   });
 });
