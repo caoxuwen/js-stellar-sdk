@@ -2,7 +2,33 @@
 
 As this project is pre 1.0, breaking changes may happen for minor version bumps. A breaking change will get clearly notified in this log.
 
-## 0.9.0
+## 0.11.0
+
+* Update `js-xdr` (by updating `stellar-base`) to support unmarshaling non-utf8 strings.
+* String fields returned by `Operation.fromXDRObject()` are of type `Buffer` now (except `SetOptions.home_domain` and `ManageData.name` - both required to be ASCII by stellar-core).
+* Add `offset` parameter to TradeAggregationCallBuilder to reflect new changes to the endpoint in horizon-0.15.0
+
+## 0.10.3
+
+* Update `stellar-base` and xdr files.
+
+## 0.10.2
+
+* Update `stellar-base` (and `js-xdr`).
+
+## 0.10.1
+
+* Update `stellar-base` to `0.8.1`.
+
+## 0.10.0
+
+* Update `stellar-base` to `0.8.0` with `bump_sequence` support.
+
+## 0.9.2
+
+* Removed `.babelrc` file from the NPM package.
+
+## 0.9.1
 
 ### Breaking changes
 
